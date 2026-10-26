@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "cloud-sre-agent": {
+      "command": "python",
+      "args": ["server.py"],
+      "env": {
+        "PYTHONUNBUFFERED": "1",
+        "LOG_LEVEL": "INFO"
+      }
+    }
+  }
+}
